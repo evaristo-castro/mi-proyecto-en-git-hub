@@ -1,0 +1,41 @@
+body {
+   margin: 0;
+   padding: 0;
+   background: white;
+}
+header {
+    background-color: mediumorchid;
+    
+    display: flex;{
+        
+        position: relative;
+        left: 0px;
+        box-sizing: border-box;
+        width: 868px;
+        
+    } 
+}
+
+h4 { color:aliceblue}
+
+.container-input { 
+position: absolute;
+left: 40%;
+top: 2%;
+
+}
+.head-redes-face { 
+    width: 18px;
+    position: absolute;
+    left: 96%;
+    top: 2%;
+           
+    }
+    
+.redes-whatsapp {
+    width: 20px;
+    position: absolute;
+    left: 98%;
+    top: 2%;
+
+}
