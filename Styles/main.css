@@ -105,4 +105,52 @@ nav {
     
     position: absolute;
 }
-  
+
+
+.ulprimario{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.liprimario {
+    float: left;
+    position: relative;
+}
+
+.aprimario {
+    display: block;
+    padding: 0 10px;
+    line-height: 40px;
+    text-decoration: none;
+    color: #000;
+}
+
+.aprimario:hover{
+    color: blue;
+}
+
+.ulsecundario{
+    position: absolute;
+    top: 40px;
+    left: 0;
+    display: none;
+    background-color: #f1f1f1;
+    padding: 0;
+}
+.lisecundario {
+    float: none;
+    width: 200px;
+    color: red;
+    text-decoration: none;
+}
+
+.asecundario{
+    text-decoration: none;
+    color: red;
+}
+.liprimario:hover > ul {
+    display: block;
+    color: red;
+
+}
