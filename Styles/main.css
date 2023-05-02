@@ -1,10 +1,11 @@
 body {
-   margin: 0%;
+
    padding: 0%;
-   background:rgb(238, 234, 234);
+   background:rgb(252, 238, 238);
+   margin-top: 20px;
 }
 header { 
-    display: flex; 
+    
     position: fixed;
     background-color: rgb(50, 6, 59);
     width: 100%; 
@@ -12,6 +13,9 @@ header {
     left: 0%;
     top: 0%; 
      }
+.head-div{
+      display: flex; 
+    }
 
 .h4-head { 
     display: flex;
@@ -20,7 +24,8 @@ header {
 }
 
 .container-input { 
-    position: fixed;
+  
+    position:fixed;
     left: 40%;
     top: 2%;
     border-radius: 40PX;
@@ -42,37 +47,49 @@ header {
     top: 30%;
 
 }
-
+.header-div-logo-carro-compra{
+   
+    width: 100%;
+    height: 100%;
+    margin-top: 14px;
+    background-color: rgb(217, 217, 224);
+}
+.header-contenedor{
+  display: flex; 
+}
+.logo {
+  position: absolute;
+    width: 10%;
+    height: 80%;
+    top: 100%;
+    border-radius: 40PX;
+}
 nav {
-    background-color: white;
+
     width: 100%; 
     position: fixed;
-    z-index: 100;
+ 
        
 }
 
-.logo {
-    width: 75%;
-    
+
+.carro-compra {
+  width: 25px;
+  position: absolute;
+  left: 80%;
+  top: 140%;
 }
 
 
-  .uni {
+.uni {
         display: flex;
         width: 100%;
-        top:7%;
+        top:18%;
         align-items: flex-end;
+        
     
   }
 
-  .carro-compra {
-    width: 25px;
-    position: absolute;
-    left: 96%;
-    top: 40%;
-  }
-  
-  
 
 .nav-ul{
     list-style: none;
@@ -80,12 +97,17 @@ nav {
     padding: 0;
     position: fixed;
     left: 35%;
-}
+    background-color: rgb(226, 230, 230);
+    top: 70px;
+    left: 30%;
+    border-radius: 40px;
+  }
 
 .nav-ul-li{
     float: left;
     position: relative;
     font-size: 15px;
+    
 }
 /*   */
 .nav-ul-li-a {
@@ -94,7 +116,7 @@ nav {
     padding: 0 10px;
     line-height: 40px;
     text-decoration: none;
-    color: #000;
+    color: #070707;
     
 }
 /* Subraya el menu Principal  */
@@ -108,7 +130,9 @@ nav {
     top: 40px;
     left: 0;
     display: none;
-        padding: 0;
+    padding: 0;
+    
+    
 }
 .lisecundario {
     float: none;
@@ -120,19 +144,35 @@ nav {
 .asecundario{
     text-decoration: none;
     color:black;
+    display: block;
+    
     
 }
 .nav-ul-li:hover > ul {
     display: block;
-    
     background-color:bisque;
+    display: block;
+    line-height: 40px;
+    color: #070707;
+}
+.container-video1{
+  
+  margin-top: 105px;
+  width: 100%;
+  border: solid;
+  height: 350px;
+}
+.section-divvideo{
+  
+ 
+ 
 }
 .video1{
-    width: 100%;
-    height: 50%;
-    left: 500px;
-    top: 17%;
    
+  width: 100%;
+  height: 500px;
+  
+    
   }
    
   .contenedor{
@@ -173,3 +213,46 @@ nav {
     
 }
   
+.boton {
+  border: 1px solid #2e518b; /*anchura, estilo y color borde*/
+  padding: 5px; /*espacio alrededor texto*/
+  background-color: #cf99b9; /*color botón*/
+  color: #ffffff; /*color texto*/
+  text-decoration: none; /*decoración texto*/
+  text-transform: uppercase; /*capitalización texto*/
+  font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+  /*border-radius: 50px; bordes redondos*/
+  margin-left: 7%;
+  }
+  .niños-cajas{
+    display: flex;
+    height: 100%;
+  }
+  
+  .img-niños1{
+    width: 100%;
+    height: 327px;
+  }
+  .pniños-sup{
+    margin-left: 20%;
+    margin-bottom: 0;
+    font-size: 20px;
+  }
+  .pniños-inf{
+    margin-left: 10%;
+    margin-top: 0;
+    font-size: 20px;
+  }
+  .niños-cajas-div{
+    border:solid;
+    width: 25%;
+    height: 50%;
+  }
+  .niños-cajas-div1{
+    border:solid;
+    width: 25%;
+    height: 50%;
+  }
+  .table-thead{
+    background-color: #cf99b9;
+  }

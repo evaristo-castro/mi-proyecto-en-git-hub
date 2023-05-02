@@ -1,79 +1,165 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-        <meta charset="utf-8" />
-        <title>Mi página de prueba</title>
-        <link rel="stylesheet" href="./Styles/main.css" />
-</head>
-<body>
+         <head>
+            <meta charset="utf-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="shortcut icon" href="./Image/favicon-.ico" type="image/x-icon">
+            <title>Mi página de prueba</title>
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" 
+            integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+            <link rel="stylesheet" href="./Styles/main.css" />
+         </head>
+ <body>
     <!-- ESTA ES LA CABECERA  -->
-    <header>
+        <header>
           
-              <div> 
-                  <p class="h4-head">LINEAS DE VENTAS AUTORIZADAS +3167740502</p> 
+              <div class="head-div">
+                        <div> 
+                          <p class="h4-head">LINEAS DE VENTAS AUTORIZADAS +3167740502</p> 
                   
-              </div>
-              <div>
-                  <input type="text" class="container-input" placeholder="buscar">
-              </div>
-              <div>
-                    
-                    <a href=""><img src="Image/face.png" alt="facebook" class="head-redes-face"></a> 
-                    <a href="https://api.whatsapp.com/send?phone=3167740502"><img src="Image/WhatsApp.svg.webp" alt="WhatsApp" class="redes-whatsapp" > </a>   
-                 
-              </div>
-      
-        
-  </header>
-
-   <!-- Menu de Navegacion   -->
-   <nav class="uni"> 
-      <div>
-            <a href=""><img src="Image/logo.png" alt="logo-MAM" class="logo"></a>
-      </div>
-  
+                        </div>
+                        <div>
+                        <input type="text"  placeholder="buscar" class="container-input">
+                        </div>
               
-         <ul class="nav-ul" class="uni">
-                <li class="nav-ul-li"><a href ="./index.html" class="nav-ul-li-a">HOME</a></li>
-                <li class="nav-ul-li"> <a href="#SALA-VENTAS" class="nav-ul-li-a">SALA DE VENTA</a></li>
-                <li class="nav-ul-li"><a href="#" class="nav-ul-li-a">HOMBRE</a>
-                  <ul class="ulsecundario"> 
-                        <li class="lisecundario"><a href ="#" class="asecundario">Reloj</a></li>
-                        <li class="lisecundario"><a href ="#" class="asecundario">Morral</a></li>   
-                  </ul>
-                </li>   
-              <li class="nav-ul-li"><a href="#" class="nav-ul-li-a">MUJER</a></li>
-              <li class="nav-ul-li"><a href="#" class="nav-ul-li-a">Morrales</a></li>
-       
-      <li class="nav-ul-li"><a href="#" class="nav-ul-li-a">Relojes</a></li>
-      <li class="nav-ul-li"><a href="#" class="nav-ul-li-a">Accesorios</a></li>
-      <li class="nav-ul-li"><a href="#" class="nav-ul-li-a">CONTACTO</a></li>
-      </ul>
+                         <div>  
+                         <a href=""><img src="Image/face.png" alt="facebook" class="head-redes-face"></a>  
+                         </div>
+              
+                         <div>
+                         <a href="https://api.whatsapp.com/send?phone=3167740502"><img src="Image/WhatsApp.svg.webp" alt="WhatsApp" class="redes-whatsapp" > </a>   
+                         </div>
+                </div>
+               <div class="header-div-logo-carro-compra">
+                <div>
+                  <a href=""><img src="Image/logo-.png" alt="logo-MAM" class="logo"></a>
+                </div>
+                
 
+
+                  <div>            
+                     <a href=""><img src="Image/carro-compra.png" alt="compra" class="carro-compra"></a> 
+                  </div>
+            </div>   
+                  
+                  
+        </header>
+      <section>
+            <div class="container-video1">
+                <video loop autoplay src="video/videop.mp4" class="video1">Hola</video>
+            </div> 
+      </section>  
     
-      <div>            
-          <a href=""><img src="Image/carro-compra.png" alt="compra" class="carro-compra"></a> 
-      </div>
-  
-         
-  
-</nav>
-  
-<section>
-    <div>
-      <video  class="video1" loop autoplay  src="video/videop.mp4">Hola</video>
-    </div>
+         <!-- Menu de Navegacion   -->
+         <section>
+            <div class="caja-de-menu">  
+               <nav class="uni">    
+                        <ul class="nav-ul">
+                             <li class="nav-ul-li"><a href ="./index.html" class="nav-ul-li-a">HOME</a></li>
+                             <li class="nav-ul-li"> <a href="#SALA-VENTAS" class="nav-ul-li-a">PRECIO DE VENTA</a></li>
+                             <li class="nav-ul-li"><a href="#" class="nav-ul-li-a">HOMBRE</a>
+                          <ul class="ulsecundario"> 
+                             <li class="lisecundario"><a href ="#" class="asecundario">Reloj</a></li>
+                             <li class="lisecundario"><a href ="#" class="asecundario">Morral</a></li>   
+                          </ul>
+                             </li>   
+                        <li class="nav-ul-li"><a href="#" class="nav-ul-li-a">MUJER</a></li>
+                        <li class="nav-ul-li"><a href="#" class="nav-ul-li-a">Morrales</a></li>
+            
+                        <li class="nav-ul-li"><a href="#" class="nav-ul-li-a">Relojes</a></li>
+                        <li class="nav-ul-li"><a href="#" class="nav-ul-li-a">Accesorios</a></li>
+                        <li class="nav-ul-li"><a href="/CONTACTO/contacto.html" class="nav-ul-li-a">CONTACTO</a></li>
+                        </ul>
+                 </nav>              
+            </div>  
+         </section>      
+    
+       <br>
+         <div><h1>visitanos </h1></div>
+        
+   
+       
+         <section>
+          <div class="contenedor">
+            <div>            
+               <a href=""><img src="Image/publicfoto.PNG" alt="imagen varias"></a> 
+            </div>
+            <div>            
+            <a href=""><img src="Image/publicfoto3.PNG" alt="imagen varias"></a> 
+           </div>
+            
+        </div>
+       </section> 
 
+      
+      <!-- cajas con imagenes  --> 
+      <section>  
+      <h2>Día del niño</h2>
+      <div class="niños-cajas">
+             
+            <div class="niños-cajas-div">
+                  <span><p class="pniños-sup">Morral</p></span>  
+                  <span><a href=""><img src="./Image/niños/niño1.jpeg" alt="compra" class="img-niños1"></a></span>   
+                  <span><p class="pniños-inf">precio:35000</p></span>
+                  <span> <a class="boton" href="" target="_blank">Leer Más</a></span> 
+            </div>
+            <div class="niños-cajas-div1">
+                  <span><p class="pniños-sup">Morral</p></span>  
+                  <span><a href=""><img src="./Image/niños/niño2.jpeg" alt="compra" class="img-niños1"></a></span>   
+                  <span><p class="pniños-inf">precio</p></span>
+                  <span> <a class="boton" href="" target="_blank">Leer Más</a></span> 
+            </div>
+            <div class="niños-cajas-div1">
+                  <span><p class="pniños-sup">camiseta</p></span>  
+                  <span><a href=""><img src="./Image/niños/niño3.jpeg" alt="compra" class="img-niños1"></a></span>   
+                  <span><p class="pniños-inf">precio</p></span>
+                  <span> <a class="boton" href="" target="_blank">Leer Más</a></span> 
+            </div>
+            <div class="niños-cajas-div1">
+                  <span><p class="pniños-sup">camiseta</p></span>  
+                  <span><a href=""><img src="./Image/niños/niño4.jpeg" alt="compra" class="img-niños1"></a></span>   
+                  <span><p class="pniños-inf">precio</p></span>
+                  <span> <a class="boton" href="" target="_blank">Leer Más</a></span> 
+            </div>
+            
+       
+           
+
+      </div>
+      
+      <div class="niños-cajas">
+             
+            <div class="niños-cajas-div">
+                  <span><p class="pniños-sup">Morral</p></span>  
+                  <span><a href=""><img src="./Image/niños/niño1.jpeg" alt="compra" class="img-niños1"></a></span>   
+                  <span><p class="pniños-inf">precio:35000</p></span>
+                  <span> <a class="boton" href="" target="_blank">Leer Más</a></span> 
+            </div>
+            <div class="niños-cajas-div1">
+                  <span><p class="pniños-sup">Morral</p></span>  
+                  <span><a href=""><img src="./Image/niños/niño2.jpeg" alt="compra" class="img-niños1"></a></span>   
+                  <span><p class="pniños-inf">precio</p></span>
+                  <span> <a class="boton" href="" target="_blank">Leer Más</a></span> 
+            </div>
+            <div class="niños-cajas-div1">
+                  <span><p class="pniños-sup">camiseta</p></span>  
+                  <span><a href=""><img src="./Image/niños/niño3.jpeg" alt="compra" class="img-niños1"></a></span>   
+                  <span><p class="pniños-inf">precio</p></span>
+                  <span> <a class="boton" href="" target="_blank">Leer Más</a></span> 
+            </div>
+            <div class="niños-cajas-div1">
+                  <span><p class="pniños-sup">camiseta</p></span>  
+                  <span><a href=""><img src="./Image/niños/niño4.jpeg" alt="compra" class="img-niños1"></a></span>   
+                  <span><p class="pniños-inf">precio</p></span>
+                  <span> <a class="boton" href="" target="_blank">Leer Más</a></span> 
+            </div>
+            
+          
+            
+           
+
+      </div>
 </section>
-<div class="contenedor">
-      <div>            
-            <a href=""><img src="Image/publicfoto.PNG" alt="compra"></a> 
-       </div>
-       <div>            
-            <a href=""><img src="Image/publicfoto3.PNG" alt="compra"></a> 
-       </div>
-</div>
-  
   <section class="div-envios">
 
      <div class="envios">
@@ -86,22 +172,45 @@
       <div class="envios">
             <img src="Image/recibe-bonos.PNG" alt="envios">
       </div>
+      <p id="SALA-VENTAS"> </p> 
   </section>    
-
   
+  <br><br>
   <!-- formulario   -->
-  <p id="SALA-VENTAS"> SALA DE VENTAS  </p>
-
+   
   <section>
-    
+      <H2>PRECIO DE VENTA</H2>
+      <table class="table">
+            <thead>
+              <tr class="table-thead">
+                <th scope="col">#</th>
+                <th scope="col">Producto</th>
+                <th scope="col">Marca</th>
+                <th scope="col">precio</th>
+              </tr>
+            </thead>
+            <tbody class="table-group-divider">
+              <tr>
+                <th scope="row">1</th>
+                <td>Reloj</td>
+                <td>QQ</td>
+                <td>80000</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Morral</td>
+                <td>GIGABAGS</td>
+                <td>160000</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>camiseta</td>
+                <td>Polo</td>
+                <td>45000</td>
+              </tr>
+            </tbody>
+          </table>
       
-          <form action="" method="get">
-          <label>First name: <input type="text"></label><br>
-          <label>Last name: <input type="text"></label><br>
-          <label>E-mail: <input type="email"></label><br>
-            <label>Fecha<input type="date" name="datetime_contr"/></label><br>
-            <input type="submit" value="BOTON">
-         </form>
   </section>
    
   <section>
@@ -118,25 +227,25 @@
   
         </div>
         <div class="div-contacto-div">
-            <p> Contacto</p>
-            <p> Calle 131 Barranquilla, Colombia</p>
-            <p>evariste96@hotmail.com</p>
-            <p>lugeroga@gmail.com</p>
-            <p>+57 (357) 37716502</p>
+            <p> Servicio al Cliente</p>
+            <p> Acerca de nosotros</p>
+            <p>Garantías</p>
+            <p>Politicas de envios</p>
+            
         </div>
         <div class="div-contacto-div"> 
-            <p> Contacto</p>
-            <p> Calle 131 Barranquilla, Colombia</p>
-            <p>evariste96@hotmail.com</p>
-            <p>lugeroga@gmail.com</p>
-            <p>+57 (357) 37716502</p>   
+            <p> MAM</p>
+            <p> Hombre</p>
+            <p>Mujer</p>
+            <p>niños</p>
+            <p>Reloj</p>
+            <p>Morrales</p>
+               
         </div>
         <div class="div-contacto-div">
-            <p> Contacto</p>
-            <p> Calle 131 Barranquilla, Colombia</p>
-            <p>evariste96@hotmail.com</p>
-            <p>lugeroga@gmail.com</p>
-            <p>+57 (357) 37716502</p>   
+            <p> Suscríbete a nuestras redes sociales</p>
+           
+              
         </div>  
       </div>  
 </footer>
