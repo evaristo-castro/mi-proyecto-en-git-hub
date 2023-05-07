@@ -192,7 +192,7 @@ nav {
   .div-contacto-div{
     padding: 15px;;
   }
-  iframe{
+  .iframe-mapa{
     width: 1000px;
     height: 200px;
     margin-left: 18%;
@@ -200,22 +200,31 @@ nav {
     border-left: 0px;
     
 }
+iframe{
+  width: 700px;
+  height: 400px;
+  margin-left: 8%;
+  border-top: 0px;
+  border-left: 0px;
+  
+}
 .imagen-contacto{
   background-repeat: no-repeat;
-  background-image: url(https://mundoreloj.com.co/wp-content/uploads/2020/12/Banner-nosotros-1.png);
+  background-image: url(/Image/imaencontacto.PNG);
+  margin: 125px;
   
 }  
 .h1-contacto{
   height: 300px;
-  color:white;
+  color:rgb(82, 72, 72);
   padding: 0px;
-  margin-left: 250px;
+  margin-left: 200px;
   margin-left: 250px;  
 }
 .form-contacto{
   width: 28%;
-  margin-top: 10%;
-  margin-left: 70%;
+  margin-top: 0%;
+  margin-left: 15%;
   margin-bottom: 7%;
   border-radius: 7px;
   border: solid rgb(199, 144, 194);
@@ -278,4 +287,10 @@ form>label{
     min-height: 150px;
     border: none;
     
+  }
+  .table-thead{
+    background-color: #cf99b9;
+  }
+  .video-form{
+    display: flex;
   }
