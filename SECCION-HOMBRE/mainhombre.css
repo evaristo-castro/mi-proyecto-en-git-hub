@@ -1,0 +1,9 @@
+.columnas{
+    display: flex;
+}
+body{
+    background-color:transparent;
+}
+.section-car{
+    margin-top: 30px;
+}

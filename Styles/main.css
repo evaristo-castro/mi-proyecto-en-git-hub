@@ -124,6 +124,10 @@ nav {
     text-decoration:underline; 
             
 }
+.asecundario:hover{
+  text-decoration:underline; 
+  background-color: #2e518b;        
+}
 
 .ulsecundario{
     position: absolute;
@@ -150,11 +154,12 @@ nav {
 }
 .nav-ul-li:hover > ul {
     display: block;
-    background-color:bisque;
+    background-color:rgb(105, 104, 103);
     display: block;
     line-height: 40px;
     color: #070707;
 }
+
 .container-video1{
   
   margin-top: 6%;

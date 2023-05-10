@@ -294,3 +294,14 @@ form>label{
   .video-form{
     display: flex;
   }
+  .pie-pagina{
+    position:fixed;
+    text-align: center;
+    bottom: 0%;
+    background-color: rgb(233, 230, 226);
+    height: 15%;
+    display: flex;
+  }
+  P{
+    size: 10px;
+  }
