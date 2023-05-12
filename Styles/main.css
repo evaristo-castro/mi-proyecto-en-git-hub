@@ -165,19 +165,20 @@ nav {
   margin-top: 6%;
   margin-bottom: 5%;
   width: 100%;
+  position: relative;
+  z-index: -1;
   
 }
 .div-abajo{
   padding-left: 50%;
-  margin-top: -5%;
+  margin-top: -10%;
 }
 .imagen-abajo{
   
   width: 33px;
-  position:static;
   background-color: aqua;
   border-radius: 45px;
-     
+  margin-top: 5px;   
 }
 .section-divvideo{
   
@@ -197,6 +198,7 @@ nav {
     display: flex;
     width: 1500px;
     margin-bottom: 100px;
+    margin-top: 25px;
   }
  
   .contenedor-imagen-bolsos{
@@ -291,16 +293,12 @@ nav {
     margin-top: 0;
     font-size: 20px;
   }
-  .niños-cajas-div{
-   margin-right: 10px;
-    width: 25%;
-    height: 50%;
-    
-  }
+  
   .niños-cajas-div1{
     margin-right: 10px;
     width: 25%;
     height: 50%;
+    padding: 0px;
   }
   .pie-pagina{
     position:fixed;
@@ -309,7 +307,15 @@ nav {
     background-color: rgb(233, 230, 226);
     height: 15%;
     display: flex;
+    width: 100%;
   }
   P{
     size: 10px;
+    
+    
   }
+  .h2-mm{
+    margin-bottom: 0px;
+    padding: 0px;
+  }
+  
