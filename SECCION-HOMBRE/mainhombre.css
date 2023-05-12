@@ -7,3 +7,7 @@ body{
 .section-car{
     margin-top: 30px;
 }
+.card-seccion{
+    position:relative;
+    z-index: -1;
+}
