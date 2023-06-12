@@ -18,3 +18,34 @@ body{
 #menu.show{
     display: block;
 }
+
+.js-card{
+    display: flex;
+    background-color: transparent;
+    align-items: center;
+    padding-left: 20%;
+    
+}
+.js-card-div{
+    background-color: blueviolet;
+}
+.card-div-dos{
+    background-color: rgb(58, 226, 43);
+}
+/*clase creada en js*/
+.mi-clase{
+    margin-left: 5%; 
+    align-items: center;
+    border:solid;
+    
+}
+.clase-img{
+    height: 80%;
+    
+    
+}
+.botonOcultar{
+    margin-left: 20%;
+    margin-top: 2%;
+}
+

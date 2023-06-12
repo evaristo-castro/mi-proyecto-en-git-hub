@@ -32,22 +32,28 @@
                 </div>
                 <div>
                   <a href="/index.html"><img src="/Image/logo-.png" alt="logo-MAM" class="logo"></a>
+                  
                 </div>
-                   
+                 
 
 
                   <div>            
                      <a href=""><img src="/Image/carro-compra.png" alt="compra" class="carro-compra"></a> 
                   </div>
-                  
-                  
+                  <div class="botonOcultar">
+                  <button id="toggleButton">Ver Menú</button>   
+                  </div>
         </header>
-               
+         
          <!-- Menu de Navegacion   -->
         <section>
-            <div class="caja-de-menu">  
-                 <nav class="uni">    
-                     <ul class="nav-ul">
+            
+            <div class="caja-de-menu"> 
+              
+                 <nav class="uni" id="menu">   
+                            
+                     <ul class="nav-ul" class="menu">
+                      
                           <li class="nav-ul-li"><a href ="/index.html" class="nav-ul-li-a">HOME</a></li>
                           <li class="nav-ul-li"><a href="" class="nav-ul-li-a">HOMBRE</a>
                       <ul class="ulsecundario"> 
@@ -66,7 +72,8 @@
             </div>  
       </section>   
       <br> <br> <br> <br> <br>
-     <!-- Menu oculto-->
+      
+     <!-- Menu oculto
      
     <button id="toggleButton">Mostrar/ocultar Menú</button>
     <nav id="menu">
@@ -76,7 +83,7 @@
             <li><a href="#">Servicios</a> </li>
             <li><a href="#">Contacto</a> </li>
           </ul>
-     </nav>
+     </nav>-->
      <!-- cars-->
      <section class="container mt-5 mb-3 section-car">
             <div class="columnas card-seccion">
@@ -101,7 +108,7 @@
                                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                                      </div>
                                      <div class="modal-body">
-                                       <img src="/Image/hombres/reloj/uno.PNG" alt="" class="w-50">
+                                       <img src="./Image/hombres/reloj/uno.PNG" alt="" class="w-50">
                                        
                                      </div>
                                      <div class="modal-footer">
@@ -136,7 +143,7 @@
                                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                                  </div>
                                  <div class="modal-body">
-                                   <img src="/Image/hombres/reloj/dos.PNG" alt="" class="w-50">
+                                   <img src="./Image/hombres/reloj/dos.PNG" alt="" class="w-50">
                                    
                                  </div>
                                  <div class="modal-footer">
@@ -172,7 +179,7 @@
                                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                                  </div>
                                  <div class="modal-body">
-                                   <img src="/Image/hombres/reloj/tres.PNG" alt="" class="w-50">
+                                   <img src="./Image/hombres/reloj/tres.PNG" alt="" class="w-50">
                                    
                                  </div>
                                  <div class="modal-footer">
@@ -207,7 +214,7 @@
                                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                                  </div>
                                  <div class="modal-body">
-                                   <img src="/Image/hombres/reloj/cuatro.PNG" alt="" class="w-50">
+                                   <img src="./Image/hombres/reloj/cuatro.PNG" alt="" class="w-50">
                                    
                                  </div>
                                  <div class="modal-footer">
@@ -229,7 +236,14 @@
     </section>
               
 
-  <!-- formulario   -->
+  <!-- card dos con java    -->
+
+  <div class="js-card card-seccion" id="carddos">
+     
+     
+    
+    
+  </div>
 
   
 <footer id="footer-dir">
@@ -282,6 +296,7 @@
        
 </body>
 <script src="./javascripmenu.js"> </script>
+<script src="./arreglo.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
 </html>
