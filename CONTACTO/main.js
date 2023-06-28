@@ -8,8 +8,8 @@ function validar(evento){
  const miMensaje = document.getElementById('idmensaje').value ;
  const miFecha = document.getElementById('idfecha').value ;
 
- 
- const miObjeto = new Formulario (miNombre, miApellido,miCorreo,miMensaje,miFecha);
+ const miMensajeInvalido = document.getElementById('mensajeinvalido');
+ const miObjeto = new Formulario (miNombre, miApellido,miCorreo,miMensaje,miFecha, miMensajeInvalido);
 
 miObjeto.validarNombres();
 miObjeto.validarApellido();

@@ -1,23 +1,24 @@
 class Formulario{
 
-constructor(nombres, apellido, email,mensaje, fecha,){
+constructor(nombres, apellido, email,mensaje, fecha, mensajeSpan){
     this.name = nombres ;
     this.apelli = apellido ;
     this.correo = email ;
     this.mensaj = mensaje ;
     this.fecha = fecha ;
+    this.mensajSpan = mensajeSpan ;
     
     
 }
 
 validarNombres =() =>{
     
-        const miMensajeInvalido = document.getElementById('mensajeinvalido');
+        
           const nombresRegex = /^[a-zA-Z\s']+$/;
         if(!this.name.match(nombresRegex)){
           //alert("nombre invalido");
-          miMensajeInvalido.textContent = "Favor Introdusca bien su nombre";
-
+          this.mensajSpan.textContent = "Favor Introdusca bien su nombre";
+          
         }
         console.log('valido');
 
@@ -25,8 +26,8 @@ validarNombres =() =>{
 validarApellido =() =>{
         const apellidoRegex = /^[a-zA-Z\s']+$/;
         if(!this.apelli.match(apellidoRegex)){
-        alert("apellido invalido");
-        miMensajeInvalido.textContent = "Favor Introdusca bien su Apellido";
+        //alert("apellido invalido");
+        this.mensajSpan.textContent = "Favor Introdusca bien su Apellido";
       }
 }
 
