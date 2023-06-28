@@ -1,5 +1,7 @@
 
-function validar (){
+function validar(evento){
+    // hay que evitar que se refresque la pagina con preventEvent
+ evento.preventDefault();
  const miNombre = document.getElementById('idnombre').value ;
  const miApellido = document.getElementById('idapellido').value ;
  const miCorreo = document.getElementById('idcorreo').value ;
@@ -15,7 +17,7 @@ miObjeto.validarCorreo();
 miObjeto.validarmensaje();
 miObjeto.validarfecha();
 
-
+console.log("evento", evento);
 }
 
 

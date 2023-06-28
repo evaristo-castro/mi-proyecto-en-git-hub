@@ -246,7 +246,7 @@ form>input{
     width: 80%;
     margin-bottom: 5%;
     padding: 15px;
-    border-radius: 15px;
+    border-radius: 5px;
     border-color: rgb(71, 91, 128);
     border-left-style: none;
     border-top-style: none;
@@ -304,4 +304,8 @@ form>label{
   }
   P{
     size: 10px;
+  }
+  .mensajeinvalido{
+    display: block;
+    color: red;
   }
