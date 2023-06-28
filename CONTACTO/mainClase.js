@@ -35,21 +35,21 @@ validarCorreo =() =>{
         const correoRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
         if(!this.correo.match(correoRegex)){
         alert("correo invalido");
-        miMensajeInvalido.textContent = "Favor Introdusca bien su correo";
+        this.mensajSpan.textContent = "Favor Introdusca bien su correo";
   }
 }
 validarmensaje =() =>{
         const mensajeRegex = /^[a-zA-Z0-9\s.,!?'"-]+$/;
         if(!this.mensaj.match(mensajeRegex)){
         alert("mensaje invalido");
-        miMensajeInvalido.textContent = "Favor Introdusca bien su Mesaje";
+        this.mensajSpan.textContent = "Favor Introdusca bien su Mesaje";
   }
 }
 validarfecha =(cadena) =>{
         const fechaRegex = /^[a-zA-Z0-9\s.,!?'"-]+$/;
         if(!this.fecha.match(fechaRegex)){
         alert("Fecha invalida");
-        miMensajeInvalido.textContent = "Favor Introdusca bien su Fecha";
+        this.mensajSpan.textContent = "Favor Introdusca bien su Fecha";
       }
 }
 
